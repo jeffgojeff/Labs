@@ -46,3 +46,4 @@ int arraySum(int A[], const int SIZE)
     return total;
 }
 
+

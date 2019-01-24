@@ -14,23 +14,20 @@ int main()
 	const int SIZE = 5;  // size of array
 
 	// ADD HERE - create an array of integers that will hold 5 integers.
-	int array[5];
+
 
 	cout << "please enter 5 integers : " << endl;
+
 	// For loop takes 5 integers from user and stores them in the array
 	for (int i = 0 ; i < SIZE ; i++)
 	{
 		// ADD HERE - take user's input and store it in the array you created
-		cin >> array[i];
+	
     	
 	}
 
 	// ADD HERE - Write a for loop to print the array to the screen
-	cout << endl;	//added for easy interpretation in terminal
-	for (int i = 0; i < SIZE; ++i)
-	{
-		cout << array[i] << ",";
-	}
-	cout << endl;	//added for easy interpretation in terminal
+
+
 	return 0;
 }
